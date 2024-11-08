@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #aa1c2a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  header .navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  header .navbar .nav-links {
+    display: flex;
+  }
+  
+  header .navbar .nav-links li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  header .navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  header .navbar .nav-links li a:hover {
+    color: #f50606; /* Amarelo quando hover */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .receitas-conidas {
+    margin: 20px 0;
+  }
+  
+  .receitas-conidas h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #c00606;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Centraliza os cards horizontalmente */
+    gap: 20px;  /* Espaçamento entre os cards */
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;  /* Definindo uma largura fixa para os cards */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #a8141c;
+  }
+  
+  .card h3 {
+    font-size: 1.6rem;
+    color: #333;
+    padding: 15px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    padding: 0 15px 15px;
+    color: #666;
+  }
+  
+  .card a {
+    display: block;
+    text-align: center;
+    background-color: #e12a30;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .card a:hover {
+    background-color: #ad171f;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ad171f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    header .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    header .navbar .nav-links {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    header .navbar .nav-links li {
+      margin: 5px 0;
+    }
+  
+    .cards {
+      justify-content: center;
+    }
+  
+    .card h3 {
+      font-size: 1.4rem;
+    }
+  
+    .card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .card p {
+      font-size: 0.8rem;
+    }
+  
+    footer p {
+      font-size: 12px;
+    }
+  }
+  

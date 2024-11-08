@@ -1,0 +1,23 @@
+{
+    "name": "Salvatores Al Forno",
+    "short_name": "Salvatores Al Forno",
+    "description": "Receitas deliciosas para você cozinhar em casa!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#f04f50",
+    "icons": [
+        {
+            "src": "images/icon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+
+        {
+            "src": "images/iconreceita.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+
+    ]
+}
