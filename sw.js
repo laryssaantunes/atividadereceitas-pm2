@@ -1,4 +1,3 @@
-
 let cacheName = "salvatores-pwa-v1";
 
 let filesToCache = [
