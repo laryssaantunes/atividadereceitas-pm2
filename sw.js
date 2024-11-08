@@ -1,10 +1,9 @@
-let cacheName = "salvatores-pwa-v1";
+let cacheName = "salvatore-pwa-v1";
 
 let filesToCache = [
   "/",                         
   "/index.html",                
-  "/css/style.css",             
-  "/app.js",                     
+  "/css/style.css",                                 
   "/manifest.json",                 
   "/mediaespaguete-a-carbonara-350x200-c.jpg",  
   "/mediabolo-de-churros-350x200-c.jpg",
