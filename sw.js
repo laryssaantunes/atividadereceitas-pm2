@@ -2,15 +2,18 @@ let cacheName = "salvatore-pwa-v1";
 
 let filesToCache = [
   "/",                         
-  "/index.html",                
+  "/index",                
   "/css/style.css",                                 
-  "/manifest.json",                 
-  "/mediaespaguete-a-carbonara-350x200-c.jpg",  
-  "/mediabolo-de-churros-350x200-c.jpg",
-  "/mediamacarrao-gratinado-com-cheddar-e-bacon-350x200-c.jpg",
-  "/media20210706_sufle_de_chocolate_com_calda_de_chocolate_master-350x200-c.jpg",
-  "/mediafile-mignon-suino-champignons-creme-mostarda-350x200-c.jpg",
-  "/mediafile-suino-ao-molho-de-maracuja-laranja-e-mel-350x200-c.jpg"
+  "/manifest.json",
+  "/massas/carbonara",
+  "/massas/macarrao",
+  "/massas/farfalle",  
+  "/carnes/hamburguinho-queijo",
+  "/carnes/maracuja-mel",  
+  "/carnes/mignon-suino", 
+  "/doces/bolo-de-churros", 
+  "/doces/bolo-de-laranja",  
+  "/doces/sufle"
 ];
 
 // Inicializando o Service Worker e fazendo o download do conteúdo da aplicação
